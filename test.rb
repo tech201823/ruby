@@ -1,3 +1,3 @@
-puts "ruby hello world!"
+puts "Ruby Hello World!"
 # これはテストです
 
