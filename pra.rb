@@ -81,4 +81,57 @@
 #     puts item
 # end
 
-# https://www.tuyano.com/index3?id=966001
+# def hello
+#     puts "hello world!"
+# end
+# hello
+
+# def helo(name)
+#     puts "わたしは"+name
+# end
+# helo("taro")
+# helo("yamada")
+
+# def hello(name)
+#     return "名前は"+name
+# end
+# puts hello("taro")
+# puts hello("yamada")
+
+# class Helo
+#     def say
+#         puts "hello"
+#     end
+#     def sayto(name)
+#         puts "I am "+name
+#     end
+# end
+# obj = Helo.new
+# obj.say
+# obj.sayto("taro")
+
+# class Helo
+#     def initialize(name="noname")
+#         @name = name
+#     end
+#     def say
+#         puts "hello "+@name
+#     end
+# end
+# obj = Helo.new("taro")
+# obj.say
+
+# class Helo
+#     attr_accessor:name
+#     def initialize(name="noname")
+#         @name = name
+#     end
+#     def say
+#         puts "hello "+@name
+#     end
+# end
+# obj = Helo.new("太郎")
+# obj.say
+# obj.name = "taro"
+# obj.say
+
