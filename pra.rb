@@ -135,3 +135,64 @@
 # obj.name = "taro"
 # obj.say
 
+# class Tax
+#     @@zeiritu=0.05
+#     def self.zeiritu=(n)
+#         @@zeiritu=n
+#     end
+#     def self.pricewhithtax(price)
+#         return (price*(1.0+@@zeiritu)).to_i
+#     end
+#     def self.tax(price)
+#         return (@@zeiritu*price).to_i
+#     end
+# end
+# price=12300
+# puts ("価格:"+price.to_s)
+# puts ("税込み価格:"+(Tax.pricewhithtax(price)).to_s)
+# puts ("税額"+Tax.tax(price).to_s)
+# puts("※消費税が10%にあがると……")
+# Tax.zeiritu=0.1
+# puts("税込：" + Tax.pricewhithtax(price).to_s)
+# puts("税額：" + Tax.tax(price).to_s)
+
+# class People
+#     def initialize(name="noname")
+#         @name=name.to_s
+#     end
+#     def print
+#         puts "NAME : "+@name
+#     end
+# end
+# class People2<People
+#     def initialize(name="noname",age=0)
+#         @name=name
+#         @age=age.to_i
+#     end
+#     def print
+#         puts "my name is "+@name+" age is "+@age.to_s+" old"
+#     end
+# end
+# taro = People.new("taro")
+# hanako = People2.new("Hanako",24)
+# taro.print
+# hanako.print
+
+# d1 = Time.now
+# d2 = Time.local(2012,1,2,3,45)
+# puts d1
+# puts d2
+
+# data =<<"EOB"
+# Hello.
+# this is test!
+# EOB
+# file = File.open('sample.txt','w')
+# file.puts(data)
+# file.close
+# puts('sample.txt に保存しました。')
+
+# result = File.read('sample.txt', :encoding => Encoding::UTF_8)
+# puts('sample.txt を読み込みました。')
+# puts('内容：')
+# puts(result)
