@@ -65,6 +65,12 @@
 # end
 # puts total
 
+# arr_1=[0,10,20,30,40]
+# arr_2=[1,11,21,31,41]
+# arr_3=[2,12,22,32,42]
+# arr=[arr_1,arr_2,arr_3]
+# puts arr
+
 # total = 0
 # for item in 1..10
 #     total += item
