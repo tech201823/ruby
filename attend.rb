@@ -1,3 +1,4 @@
+# coding:utf-8
 # json呼び出し
 require "json"
 
